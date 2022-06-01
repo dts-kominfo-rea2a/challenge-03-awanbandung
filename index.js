@@ -25,7 +25,7 @@ const listBelanjaan = (dataBelanjaan) => {
   let arrListBelanjaan = [];
   for (counter = 0; counter < dataBelanjaan.length; counter++) {
     arrListBelanjaan.push(
-      " - " +
+      "- " +
         dataBelanjaan[counter].nama +
         " x " +
         dataBelanjaan[counter].kuantitas
